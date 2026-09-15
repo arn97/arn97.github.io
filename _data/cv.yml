@@ -2,6 +2,8 @@ cv:
   name: Arnab Roy
   label: PhD Candidate, Department of Mathematical Sciences
   email: arnabroy@udel.edu
+  phone: "+1 302-763-2690"
+  website: https://arn97.github.io/
   location: Newark, DE, USA
   image: ""
   summary: PhD candidate in applied mathematics at the University of Delaware, advised by Tobin A. Driscoll, with a concurrent MS in Data Science. I use machine learning to solve differential equations — neural operators, diffusion models, and simulation-based inference as alternatives to classical numerical schemes.
@@ -13,6 +15,46 @@ cv:
       username: NcPpNqQAAAAJ
 
   sections:
+    # NOTE: Experience is rendered first by the theme regardless of its position
+    # in this file. Every other section below renders in the order it appears here.
+    Experience:
+      - company: University of Delaware, Department of Mathematical Sciences
+        position: Instructor of Record
+        location: Newark, DE, USA
+        start_date: 2024-01
+        end_date: present
+        summary: Sole instructor for eight undergraduate course sections, responsible for lectures, assignment and exam design, and assessment.
+        highlights:
+          - "MATH 351: Engineering Mathematics I — Fall 2026 (34 students); Summer 2026 (8 students)"
+          - "MATH 305: Applied Mathematics for Biomedical Engineering — Spring 2026 (~38 students)"
+          - "MATH 243: Analytic Geometry and Calculus C — Fall 2025 (~80 students); Summer 2024 (~30 students)"
+          - "MATH 242: Analytic Geometry and Calculus B — Summer 2025 (~30 students); Winter 2024, two sections (~30 each)"
+
+      - company: University of Delaware, Department of Mathematical Sciences
+        position: Graduate Research Assistant
+        location: Newark, DE, USA
+        start_date: 2023-01
+        end_date: present
+        summary: Doctoral research in scientific machine learning under Dr. Tobin A. Driscoll, spanning operator learning, diffusion models, simulation-based inference, and physics-informed neural networks.
+
+      - company: University of Delaware, Department of Mathematical Sciences
+        position: Teaching Assistant
+        location: Newark, DE, USA
+        start_date: 2022-09
+        end_date: 2024-12
+        summary: Led discussion sessions, graded coursework, and held office hours across six course sections.
+        highlights:
+          - "MATH 637: Mathematical Techniques in Data Science — Fall 2024, Spring 2024"
+          - "MATH 219: Data Science I — Spring 2024"
+          - "MATH 243: Analytic Geometry and Calculus C — Fall 2023"
+          - "MATH 242: Analytic Geometry and Calculus B — Spring 2023"
+          - "MATH 241: Analytic Geometry and Calculus A — Fall 2022"
+
+    Academic Interests:
+      - name: Research Interests
+        icon: fa-solid fa-tag
+        keywords: "Scientific Machine Learning, Diffusion Models, Simulation-Based Inference, Operator Learning, Neural Operators, Inverse Problems, Parameter Estimation for PDEs and ODEs, Computational Modeling of Dynamical Systems, Numerical Analysis of Differential Equations"
+
     Education:
       - institution: University of Delaware
         location: Newark, DE, USA
@@ -38,39 +80,6 @@ cv:
         highlights:
           - "Advisor: Dr. Ritabrata Sengupta"
           - "Thesis: Interpolation by Different Types of Quantum Channels Using Conic Programs and Further Generalisation"
-
-    Experience:
-      - company: University of Delaware, Department of Mathematical Sciences
-        position: Instructor of Record
-        location: Newark, DE, USA
-        start_date: 2024-01
-        end_date: present
-        summary: Sole instructor for eight undergraduate course sections, responsible for lectures, assignment and exam design, and assessment.
-        highlights:
-          - "MATH 351: Engineering Mathematics I — Fall 2026 (34 students, in progress); Summer 2026 (8 students)"
-          - "MATH 305: Applied Mathematics for Biomedical Engineering — Spring 2026 (~38 students)"
-          - "MATH 243: Analytic Geometry and Calculus C — Fall 2025 (~80 students); Summer 2024 (~30 students)"
-          - "MATH 242: Analytic Geometry and Calculus B — Summer 2025 (~30 students); Winter 2024, two sections (~30 each)"
-
-      - company: University of Delaware, Department of Mathematical Sciences
-        position: Graduate Research Assistant
-        location: Newark, DE, USA
-        start_date: 2023-01
-        end_date: present
-        summary: Doctoral research in scientific machine learning under Dr. Tobin A. Driscoll, spanning operator learning, diffusion models, simulation-based inference, and physics-informed neural networks.
-
-      - company: University of Delaware, Department of Mathematical Sciences
-        position: Teaching Assistant
-        location: Newark, DE, USA
-        start_date: 2022-09
-        end_date: 2024-12
-        summary: Led discussion sessions, graded coursework, and held office hours across six course sections.
-        highlights:
-          - "MATH 637: Mathematical Techniques in Data Science — Fall 2024, Spring 2024"
-          - "MATH 219: Data Science I — Spring 2024"
-          - "MATH 243: Analytic Geometry and Calculus C — Fall 2023"
-          - "MATH 242: Analytic Geometry and Calculus B — Spring 2023"
-          - "MATH 241: Analytic Geometry and Calculus A — Fall 2022"
 
     Publications:
       - title: Operator learning for models of tear film breakup
@@ -126,7 +135,24 @@ cv:
         start_date: 2020-01
         end_date: 2021-05
 
-    Awards:
+    Skills:
+      - name: Programming Languages
+        icon: fa-solid fa-code
+        keywords: "Python (Proficient), Julia (Intermediate)"
+
+      - name: Machine Learning and Scientific Computing
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow, Keras, DeepXDE, BayesFlow, Scikit-learn, NumPy, SciPy"
+
+      - name: Scientific ML and Numerical Methods
+        icon: fa-solid fa-square-root-variable
+        keywords: "Neural Operators (DeepONet, Fourier Neural Operators), Diffusion Models, Physics-Informed Neural Networks, Neural ODEs, Transformers, Finite Element Methods, Optimization, Numerical Solution of Differential Equations"
+
+      - name: Computing and Development Tools
+        icon: fa-solid fa-terminal
+        keywords: "Git, Linux, DARWIN HPC Cluster, VS Code, Anaconda, Jupyter Notebook, SLURM, HDF5, YAML"
+
+    Honors and Awards:
       - title: Institution Silver Medal
         authors:
           - IISER Berhampur
@@ -141,31 +167,11 @@ cv:
         awarder: Government of India
         summary: National merit-based fellowship awarded to the top 1% of students for pursuing higher education in science, held 2016–2021.
 
-    Skills:
-      - name: Programming Languages
-        level: #""
-        icon: fa-solid fa-code
-        keywords: "Python (Proficient), Julia (Intermediate)"
-
-      - name: Machine Learning and Scientific Computing
-        level: #""
-        icon: fa-solid fa-brain
-        keywords: "PyTorch, TensorFlow, Keras, DeepXDE, BayesFlow, Scikit-learn, NumPy, SciPy"
-
-      - name: Scientific ML and Numerical Methods
-        level: #""
-        icon: fa-solid fa-square-root-variable
-        keywords: "Neural Operators (DeepONet, Fourier Neural Operators), Diffusion Models, Physics-Informed Neural Networks, Neural ODEs, Transformers, Finite Element Methods, Optimization, Numerical Solution of Differential Equations"
-
-      - name: Computing and Development Tools
-        level: #""
-        icon: fa-solid fa-terminal
-        keywords: "Git, Linux, DARWIN HPC Cluster, VS Code, Anaconda, Jupyter Notebook, SLURM, HDF5, YAML"
-
-    Interests:
-      - name: Research Interests
-        icon: fa-solid fa-tag
-        keywords: "Scientific Machine Learning, Diffusion Models, Simulation-Based Inference, Operator Learning, Neural Operators, Inverse Problems, Parameter Estimation for PDEs and ODEs, Computational Modeling of Dynamical Systems, Numerical Analysis of Differential Equations"
+    Conferences and Workshops:
+      - bullet: "**SIAM Annual Meeting (AN26)**, Cleveland, OH — July 2026. Presentation: *Can a single neural network generate samples from an entire family of attractors — from steady to fully chaotic?*"
+      - bullet: "**Mid-Atlantic Numerical Analysis Day**, Temple University — November 2025. Presentation: *Operator Learning for Tear Film Dynamics*"
+      - bullet: "**Graduate Student Mathematical Modeling Camp (GSMMC)**, University of Delaware — June 2023"
+      - bullet: "**Mathematical Problems in Industry (MPI)**, New Jersey Institute of Technology — June 2023"
 
     Languages:
       - name: Bengali
