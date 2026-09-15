@@ -10,6 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p>arnabroy@udel.edu</p>
+    <p>arnab2014.roy@gmail.com</p>
 
 selected_papers: false
 social: true
