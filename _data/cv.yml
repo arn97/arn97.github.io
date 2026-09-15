@@ -47,7 +47,7 @@ cv:
         end_date: present
         summary: Sole instructor for eight undergraduate course sections, responsible for lectures, assignment and exam design, and assessment.
         highlights:
-          - "MATH 351: Engineering Mathematics I — Fall 2026 (in progress); Summer 2026 (8 students)"
+          - "MATH 351: Engineering Mathematics I — Fall 2026 (34 students, in progress); Summer 2026 (8 students)"
           - "MATH 305: Applied Mathematics for Biomedical Engineering — Spring 2026 (~38 students)"
           - "MATH 243: Analytic Geometry and Calculus C — Fall 2025 (~80 students); Summer 2024 (~30 students)"
           - "MATH 242: Analytic Geometry and Calculus B — Summer 2025 (~30 students); Winter 2024, two sections (~30 each)"
@@ -143,22 +143,22 @@ cv:
 
     Skills:
       - name: Programming Languages
-        level: ""
+        level: #""
         icon: fa-solid fa-code
         keywords: "Python (Proficient), Julia (Intermediate)"
 
       - name: Machine Learning and Scientific Computing
-        level: ""
+        level: #""
         icon: fa-solid fa-brain
         keywords: "PyTorch, TensorFlow, Keras, DeepXDE, BayesFlow, Scikit-learn, NumPy, SciPy"
 
       - name: Scientific ML and Numerical Methods
-        level: ""
+        level: #""
         icon: fa-solid fa-square-root-variable
         keywords: "Neural Operators (DeepONet, Fourier Neural Operators), Diffusion Models, Physics-Informed Neural Networks, Neural ODEs, Transformers, Finite Element Methods, Optimization, Numerical Solution of Differential Equations"
 
       - name: Computing and Development Tools
-        level: ""
+        level: #""
         icon: fa-solid fa-terminal
         keywords: "Git, Linux, DARWIN HPC Cluster, VS Code, Anaconda, Jupyter Notebook, SLURM, HDF5, YAML"
 
