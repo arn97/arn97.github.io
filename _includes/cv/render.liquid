@@ -10,18 +10,12 @@
     <h1 class="post-title">
       {{ page.title }}
       {% if page.cv_pdf %}
-        
-          {% if page.cv_pdf contains '://' %}
-            href="{{ page.cv_pdf }}"
-          {% else %}
-            href="{{ page.cv_pdf | relative_url }}"
-          {% endif %}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="float-right"
-        >
-          <i class="fa-solid fa-file-pdf"></i>
-        </a>
+        {% if page.cv_pdf contains '://' %}
+          {% assign cv_pdf_url = page.cv_pdf %}
+        {% else %}
+          {% assign cv_pdf_url = page.cv_pdf | relative_url %}
+        {% endif %}
+        <a href="{{ cv_pdf_url }}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fa-solid fa-file-pdf"></i></a>
       {% endif %}
     </h1>
     {% if page.description %}
