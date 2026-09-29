@@ -82,6 +82,15 @@ cv:
           - "Thesis: Interpolation by Different Types of Quantum Channels Using Conic Programs and Further Generalisation"
 
     Publications:
+      - title: Amortized Generative Modeling of Invariant Measures across A Family of Kuramoto–Sivashinsky PDEs
+        authors:
+          - Arnab Roy
+          - Tobin A. Driscoll
+        publisher: "Preprint, arXiv:2609.32914"
+        releaseDate: 2026-09-15
+        url: https://doi.org/10.48550/arXiv.2609.32914
+        summary: A single diffusion model trained to generate samples from the invariant measures of an entire family of Kuramoto–Sivashinsky equations, amortized across the parameter range from steady to chaotic dynamics.
+      
       - title: Operator learning for models of tear film breakup
         authors:
           - Qinying Chen
