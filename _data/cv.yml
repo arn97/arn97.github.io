@@ -118,19 +118,19 @@ cv:
         start_date: 2025-01
         end_date: present
 
-      - name: Diffusion-Based Forecasting for Kuramoto–Sivashinsky PDE
+      - name: Amortized Diffusion Model for Kuramoto--Sivashinsky PDE
         summary: Diffusion models that generate samples from the attractor distribution of the Kuramoto–Sivashinsky equation, with the learned representations used as latent state spaces for downstream forecasting.
         highlights:
           - "Repository: github.com/arn97/Diffusion_forecast_KS"
         start_date: 2025-01
-        end_date: present
+        end_date: 2026-01
 
-      - name: PINN-Based Surrogate Modeling for Tear Film PDE Systems
-        summary: Physics-informed neural networks as surrogate solvers for tear film PDE systems, learning mappings from model parameters directly to spatiotemporal solution fields.
-        highlights:
-          - "Repository: github.com/arn97/Tear_Film_PDE_Forward_surrogate"
-        start_date: 2025-01
-        end_date: present
+      # - name: PINN-Based Surrogate Modeling for Tear Film PDE Systems
+      #   summary: Developed a diffusion model that generates samples from the invariant measure of the Kuramoto--Sivashinsky equation, amortized across a family of PDE parameters so that a single trained network spans regimes from steady to fully chaotic.
+      #   highlights:
+      #     - "Repository: github.com/arn97/Tear_Film_PDE_Forward_surrogate"
+      #   start_date: 2025-01
+      #   end_date: present
 
       - name: Operator Learning for Models of Tear Film Breakup
         summary: Neural operator models learning mappings from fluorescence intensity to tear film thickness and osmolarity, using fully-connected, Fourier, and PCA-based architectures as surrogates for differential equation systems. Published in Mathematical Medicine and Biology (2026).
