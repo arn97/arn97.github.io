@@ -177,6 +177,7 @@ cv:
         summary: National merit-based fellowship awarded to the top 1% of students for pursuing higher education in science, held 2016–2021.
 
     Conferences and Workshops:
+      - bullet: "**Delaware Data Science Symposium 2026**, University of Delaware — September 2026. Poster Presentation: *Amortized Generative Modeling of Invariant Measures Across a Family of Kuramoto–Sivashinsky PDEs*"
       - bullet: "**SIAM Annual Meeting (AN26)**, Cleveland, OH — July 2026. Presentation: *Can a single neural network generate samples from an entire family of attractors — from steady to fully chaotic?*"
       - bullet: "**Mid-Atlantic Numerical Analysis Day**, Temple University — November 2025. Presentation: *Operator Learning for Tear Film Dynamics*"
       - bullet: "**Graduate Student Mathematical Modeling Camp (GSMMC)**, University of Delaware — June 2023"
